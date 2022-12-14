@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdede566-7556-4765-b7a2-e2c30595d016" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hw1/HW1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hw1/Process.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="fdede566-7556-4765-b7a2-e2c30595d016" name="Changes" comment="done hw1 - priority processes">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hw2/HW2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hw2/Process.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/hw1/HW1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/hw1/HW1.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "preferences.general"
   }
 }]]></component>
   <component name="RunManager">
@@ -72,11 +72,19 @@
       <option name="project" value="LOCAL" />
       <updated>1670955765207</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="done hw1 - priority processes">
+      <created>1670958167318</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670958167318</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="done hw1 - priority processes" />
+    <option name="LAST_COMMIT_MESSAGE" value="done hw1 - priority processes" />
   </component>
 </project>

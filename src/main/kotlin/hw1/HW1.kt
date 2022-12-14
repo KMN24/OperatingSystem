@@ -5,6 +5,7 @@ val processes = arrayListOf<Process>()
 fun main() {
 
     var selectedOptions: Int = 1
+    val hW1 = HW1()
 
     while(true) {
 
@@ -21,39 +22,42 @@ fun main() {
         selectedOptions = readln().toIntOrNull() ?: 4
 
         when (selectedOptions) {
-            1 -> addNewProcess()
-            2 -> showAllProcesses()
-            3 -> showWithPriority()
+            1 -> hW1.addNewProcess()
+            2 -> hW1.showAllProcesses()
+            3 -> hW1.showWithPriority()
             else -> break
         }
     }
 }
 
-fun addNewProcess() {
-    println("Please enter name and priority of new process by white space \n")
-    val (name, priority) = readln().split(' ')
+class HW1 {
+    fun addNewProcess() {
+        println("Please enter name and priority of new process by white space \n")
+        val (name, priority) = readln().split(' ')
 
-    processes.add(
-        hw1.Process(
-            name = name,
-            priority = priority.toInt()
+        processes.add(
+            hw1.Process(
+                name = name,
+                priority = priority.toInt()
+            )
         )
-    )
-    println("Successfully added\n")
-}
-
-fun showAllProcesses() {
-    println("All processes: \n")
-    processes.forEach {
-        println(it)
+        println("Successfully added\n")
     }
-}
 
-fun showWithPriority() {
-    println("Processes with priority \n")
-    val processesWithPriority = processes
-    processesWithPriority.sortBy { it.priority }
-    processesWithPriority.forEach {
-        println(it)
+    fun showAllProcesses() {
+        println("All processes: \n")
+        processes.forEach {
+            println(it)
+        }
+    }
+
+    fun showWithPriority() {
+        println("Processes with priority \n")
+        val processesWithPriority = arrayListOf<Process>()
+        processesWithPriority.addAll(processes)
+        processesWithPriority.sortBy { it.priority }
+        processesWithPriority.forEach {
+            println(it)
+        }
     }
 }
